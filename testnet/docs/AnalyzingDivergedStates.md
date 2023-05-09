@@ -20,7 +20,7 @@ There are a couple of situations in which diverged states may be encountered:
 
 ## Overview
 
-IC replicas persist their replicated state under the `/var/ic/data/ic_state`
+fsaIC replicas persist their replicated state under the `/var/ic/data/ic_state`
 directory. There are a couple of subdirectories of interest there:
 
  * `diverged_checkpoints` lists checkpoints whose root hash do not match the
